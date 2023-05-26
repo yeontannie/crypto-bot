@@ -7,6 +7,7 @@ matplotlib
 seaborn
 prophet
 scikit-learn
+tensorflow
 keras
 statsmodels
 python-binance
