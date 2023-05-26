@@ -9,4 +9,4 @@ prophet
 sklearn
 keras
 statsmodels
-binance.spot
+Spot
