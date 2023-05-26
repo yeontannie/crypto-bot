@@ -1,5 +1,6 @@
 import pandas as pd
 import datetime as dt
+import numpy as np
 
 from binance.spot import Spot as Client
 
@@ -11,10 +12,8 @@ def get_data(symbol, interval, end):
 
     # create colums name
     data.columns = ['open_time','open', 'high', 'low', 'close', 'volume','close_time', 'qav','num_trades','taker_base_vol','taker_quote_vol', 'ignore']
-                
-    # change the timestamp
-    data.index = [dt.datetime.fromtimestamp(x/1000.0) for x in data.close_time]
 
-    #convert data to float
-    df=data.astype(float)
-    return df
+    # change the timestamp
+    data['date'] = [dt.datetime.fromtimestamp(x/1000.0) for x in data.close_time]
+
+    return data
