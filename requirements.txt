@@ -10,3 +10,4 @@ sklearn
 keras
 statsmodels
 python-binance
+binance.spot
