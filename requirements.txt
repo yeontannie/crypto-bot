@@ -10,3 +10,4 @@ scikit-learn
 keras
 statsmodels
 python-binance
+binance-connector
