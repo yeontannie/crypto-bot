@@ -6,7 +6,7 @@ datetime
 matplotlib
 seaborn
 prophet
-sklearn
+scikit-learn
 keras
 statsmodels
 python-binance
