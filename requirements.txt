@@ -1,0 +1,13 @@
+plotly
+pandas
+numpy
+streamlit
+datetime
+math
+matplotlib.pyplot
+seaborn
+prophet
+sklearn
+keras
+statsmodels
+binance
