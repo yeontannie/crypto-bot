@@ -1,7 +1,7 @@
 import pandas as pd
 import datetime as dt
 
-from binance.spot import Spot as Client
+from binance import Client
 
 client = Client()
 
